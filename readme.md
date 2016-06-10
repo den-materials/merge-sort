@@ -15,6 +15,8 @@ Merge Sort works on the basic principal of dividing a list into sub-lists until 
 
 > Exercise: can we act it out?
 
+<!--Write a random number on your whiteboard, and line up in random order along a wall of the class.  Split up until one-by-one.-->
+
 ##How would I build it?
 
 -  A `mergeSort` function may take an array, cut it in half [recursively](https://en.wikipedia.org/wiki/Recursion_(computer_science)) until it has divided the whole array into single items. At this point the recursive calls finally starts returning to the function that invoked it. At this point a separate helper function, `merge`, could be called on a pair of sorted arrays merging them together (see visualization above).
@@ -22,5 +24,5 @@ Merge Sort works on the basic principal of dividing a list into sub-lists until 
 
 ##Drill
 **Pseudocode** an implementation of `merge`.
-
-Bonus: **Pseudocode** an implementation of `mergeSort`.
+**Pseudocode** an implementation of `mergeSort`.
+Bonus: Convert your pseudocode to Javascript.
