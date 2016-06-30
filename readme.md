@@ -3,7 +3,7 @@
 ##Objectives
 *By the end of today's class, developers will be able to:*
 - **Create** a merge sort algorithm in pseudocode
-- **Understand** the principal of "proof by induction"
+- **Understand** the principle of "proof by induction"
 
 ##Why Merge Sort?
 Merge sort is one of the most powerful sorting algorithms that you will encounter. In fact it is the native `.sort` algorithm used in many JavaScript environments (such as [Mozilla's](https://bugzilla.mozilla.org/show_bug.cgi?id=224128)). It compares a list of elements using a "Divide and Conquer" strategy.
