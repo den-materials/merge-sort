@@ -33,3 +33,7 @@ Merge Sort works on the basic principal of dividing a list into sub-lists until 
 **Pseudocode** an implementation of `merge`.
 **Pseudocode** an implementation of `mergeSort`.
 Bonus: Convert your pseudocode to Javascript.
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
