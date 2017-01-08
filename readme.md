@@ -29,10 +29,28 @@ Merge Sort works on the basic principal of dividing a list into sub-lists until 
 -  A `mergeSort` function may take an array, cut it in half [recursively](https://en.wikipedia.org/wiki/Recursion_(computer_science)) until it has divided the whole array into single items. At this point the recursive calls finally starts returning to the function that invoked it. At this point a separate helper function, `merge`, could be called on a pair of sorted arrays merging them together (see visualization above).
 -  The `merge` function takes two *sorted* arrays as parameters (an array with one element is technically sorted), looks at the the first elements of the two lists, and assembles a resulting list based on the two lists "zipped" together by pushing the lowest to highest valued elements.
 
+## How long will it take?
+
+We talked briefly about **Big O notation** before, which is an indication of how *long* something will take based on how *many* items we are dealing with.  Remember the **Big o notation** for binary search?
+
+<details>
+<summary>Answer</summary>
+
+</details>
+
+Any guesses on how long **merge sort** will take?
+
+Let's see if we can *prove* one of our guesses to be true with...**induction**.
+
 ## Drill
 **Pseudocode** an implementation of `merge`.
 **Pseudocode** an implementation of `mergeSort`.
 **Convert** your pseudocode to Javascript.
+
+## Resources
+
+- [Explanation of Merge Sort and Proofs](http://www.cs.princeton.edu/courses/archive/spr03/cs226/lectures/analysis.4up.pdf)
+- [Big O Cheat Sheet](http://bigocheatsheet.com/)
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
