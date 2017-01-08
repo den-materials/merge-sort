@@ -35,7 +35,7 @@ We talked briefly about **Big O notation** before, which is an indication of how
 
 <details>
 <summary>Answer</summary>
-
+If array is sorted, `log(n)`, if array is not sorted, `n`.
 </details>
 
 Any guesses on how long **merge sort** will take?
