@@ -49,6 +49,7 @@ Let's see if we can *prove* one of our guesses to be true with...**induction**.
 
 - [Explanation of Merge Sort and Proofs](http://www.cs.princeton.edu/courses/archive/spr03/cs226/lectures/analysis.4up.pdf)
 - [Big O Cheat Sheet](http://bigocheatsheet.com/)
+- [Merge Sort Video](https://www.youtube.com/watch?v=m2KOVTaAu0k)
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
