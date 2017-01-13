@@ -1,3 +1,5 @@
+<!-- This whole class takes about 1:45, depending on how long you give for exercise  -->
+
 # Merge Sort
 
 ## Objectives
