@@ -1,5 +1,7 @@
 <!-- This whole class takes about 1:45, depending on how long you give for exercise  -->
 
+<!--6:00 5 minutes -->
+
 # Merge Sort
 
 ## Objectives
@@ -18,9 +20,13 @@ Merge Sort works on the basic principal of dividing a list into sub-lists until 
 ## Visualizations
 ![merge-sort-visualization](https://camo.githubusercontent.com/c9d3bf4590b7284596375ffa0cd98ee62699a757/68747470733a2f2f776562646f63732e63732e75616c62657274612e63612f253745686f6c74652f5432362f4c65637475726536466967362e676966)
 
+<!--6:05 10 minutes -->
+
 > Exercise: can we act it out?
 
-<!--Write a random number on your whiteboard, and line up in random order along a wall of the class.  Split up until one-by-one.-->
+<!--Write a random number between 1 and 100 on a piece of paper, and line up in random order along a wall of the class.  Split up until one-by-one.-->
+
+<!--6:15 10 minutes -->
 
 ## How would I build it?
 
@@ -40,7 +46,24 @@ Any guesses on how long **merge sort** will take?
 
 <!--CFU Stop-and-jot answer -->
 
-Let's see if we can *prove* one of our guesses to be true with...**induction**.
+<!--6:25 5 minutes -->
+
+## Proof by Induction
+
+A Proof by Induction requires two steps:
+
+1. First, we must show that our statement is true for a single `n`, in this case for `n=0`.
+2. Second, we must show that *if we assume our statement is true* for `n=k`, we can show it is true for bigger numbers, usually `n=k+1`, but in this case `n=2k`.
+
+You can think about this like a set of stepping stones across a river.  We can cross the entire river (all numbers greater than 0) as long as our first footing is sure, and we have a consistent step to the next stone every time.
+
+Now, let's see if we can *prove* one of our earlier Big O guesses to be true with...**induction**.
+
+<!--Use "Explanation of Merge Sort and Proofs" below for reference -->
+
+<!--On whiteboard work through proof, but probably a good idea to do think-squad-shares for why 1 * log_2(1) == 0, the first two steps of T(2N), and what can we do with -2N and +2N at end -->
+
+<!--Also between step 2 and 3 is a skipped step that looks like 2N(log_2(2N/2)) + 2N -->
 
 ## Drill
 **Pseudocode** an implementation of `merge`.
