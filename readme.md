@@ -57,7 +57,11 @@ A Proof by Induction requires two steps:
 
 You can think about this like a set of stepping stones across a river.  We can cross the entire river (all numbers greater than 0) as long as our first footing is sure, and we have a consistent step to the next stone every time.
 
+![](steppingStones.jpg)
+
 Now, let's see if we can *prove* one of our earlier Big O guesses to be true with...**induction**.
+
+<!--6:30 15 minutes -->
 
 <!--Use "Explanation of Merge Sort and Proofs" below for reference -->
 
